@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gyw="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00A5A8"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gyw.arcprogressdemo.MainActivity">
+
+
+
+    <com.gyw.arcprogressdemo.ArcProgress
+        android:id="@+id/arc_progress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        gyw:arc_bottom_text_size="16dip"
+        gyw:arc_finished_color="#65cd33"
+        gyw:arc_stroke_width="12dip"
+        gyw:arc_suffix_text="步数"
+        gyw:arc_suffix_text_size="18dip"
+        gyw:arc_text_color="#ffffff"
+        gyw:arc_text_size="46dip"
+        gyw:arc_unfinished_color="#33ffffff"
+        gyw:arc_bottom_text="目标10000步"
+        gyw:arc_max="10000"/>
+</RelativeLayout>
